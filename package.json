@@ -1,0 +1,27 @@
+{
+  "name": "my-theme-wordpress",
+  "version": "1.0.0",
+  "private": true,
+  "homepage": "https://twojadrugawyplata.github.io/my-theme-wordpress-reactnpm/",
+  "description": "Frontity project",
+  "keywords": [
+    "frontity"
+  ],
+  "scripts": {
+    "dev": "frontity dev",
+    "build": "frontity build",
+    "serve": "frontity serve",
+    "deploy": "gh-pages -d build",
+    "predeploy": "npm run build"
+  },
+  "prettier": {},
+  "dependencies": {
+    "@frontity/core": "^1.7.2",
+    "@frontity/html2react": "^1.3.4",
+    "@frontity/tiny-router": "^1.2.1",
+    "@frontity/wp-source": "^1.8.0",
+    "frontity": "^1.10.0",
+    "gh-pages": "^3.1.0",
+    "my-theme-wordpress2": "file:packages/my-theme-wordpress2"
+  }
+}
