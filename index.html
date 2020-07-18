@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="UTF-8">
+    <title>My-theme-wordpress-react by TwojaDrugaWyplata</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="stylesheets/normalize.css" media="screen">
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen">
+    <link rel="stylesheet" type="text/css" href="stylesheets/github-light.css" media="screen">
+  </head>
+  <body>
+    <section class="page-header">
+      <h1 class="project-name">My-theme-wordpress-react</h1>
+      <h2 class="project-tagline"></h2>
+      <a href="https://github.com/TwojaDrugaWyplata/my-theme-wordpress-react" class="btn">View on GitHub</a>
+      <a href="https://github.com/TwojaDrugaWyplata/my-theme-wordpress-react/zipball/master" class="btn">Download .zip</a>
+      <a href="https://github.com/TwojaDrugaWyplata/my-theme-wordpress-react/tarball/master" class="btn">Download .tar.gz</a>
+    </section>
+
+    <section class="main-content">
+      <h1>
+<a id="my-theme-wordpress" class="anchor" href="#my-theme-wordpress" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>my-theme-wordpress</h1>
+<p>This project was bootstrapped with <a href="https://frontity.org/">Frontity</a>.</p>
+<h4>
+<a id="table-of-contents" class="anchor" href="#table-of-contents" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Table of Contents</h4>
+<ul>
+<li><a href="#launch-a-development-server">Launch a development server</a></li>
+<li><a href="#create-your-custom-theme">Create your custom theme</a></li>
+<li><a href="#create-a-production-ready-build">Create a production-ready build</a></li>
+<li><a href="#deploy">Deploy</a></li>
+</ul>
+<h3>
+<a id="launch-a-development-server" class="anchor" href="#launch-a-development-server" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Launch a development server</h3>
+<pre><code>npx frontity dev
+</code></pre>
+<p>Runs the app in development mode. Open <a href="http://localhost:3000">http://localhost:3000</a> to view it in the browser.</p>
+<p>The site will automatically reload if you make changes inside the <code>packages</code> folder. You will see the build errors in the console.</p>
+<blockquote>
+<p>Have a look at our <a href="https://docs.frontity.org/getting-started/quick-start-guide">Quick Start Guide</a></p>
+</blockquote>
+<h3>
+<a id="create-your-custom-theme" class="anchor" href="#create-your-custom-theme" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Create your custom theme</h3>
+<pre><code>npx frontity create-package your-custom-theme
+</code></pre>
+<p>Use the command <code>npx frontity create-package</code> to create a new package that can be set in your <code>frontity.settings.js</code> as your theme</p>
+<blockquote>
+<p>Have a look at our blog post <a href="https://frontity.org/blog/how-to-create-a-react-theme-in-30-minutes/">How to Create a React WordPress Theme in 30 Minutes</a></p>
+</blockquote>
+<h3>
+<a id="create-a-production-ready-build" class="anchor" href="#create-a-production-ready-build" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Create a production-ready build</h3>
+<pre><code>npx frontity build
+</code></pre>
+<p>Builds the app for production to the <code>build</code> folder.</p>
+<p>This will create a <code>/build</code> folder with a <code>server.js</code> (a <a href="https://vercel.com/docs/v2/serverless-functions/introduction">serverless function</a>) file and a <code>/static</code> folder with all your javascript files and other assets.</p>
+<p>Your app is ready to be deployed.</p>
+<blockquote>
+<p>Get more info about <a href="https://docs.frontity.org/architecture">Frontity's architecture</a></p>
+</blockquote>
+<h3>
+<a id="deploy" class="anchor" href="#deploy" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Deploy</h3>
+<p>With the files generated in the <em>build</em> you can deploy your project</p>
+<h4>
+<a id="as-a-node-app" class="anchor" href="#as-a-node-app" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>As a node app</h4>
+<p>Use <code>npx frontity serve</code> to run it like a normal Node app.</p>
+<p>This command generates (and runs) a small web server that uses the generated <code>server.js</code> and <code>/static</code> to serve your content</p>
+<h4>
+<a id="as-a-serverless-service" class="anchor" href="#as-a-serverless-service" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>As a serverless service</h4>
+<p>Upload your <code>static</code> folder to a CDN and your <code>server.js</code> file to a serverless service, like Now or Netlify.</p>
+<blockquote>
+<p>Get more info about <a href="https://docs.frontity.org/deployment">how to deploy</a> a Frontity project</p>
+</blockquote>
+<hr>
+<h3>
+<a id="-frontity-channels-" class="anchor" href="#-frontity-channels-" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>» Frontity Channels <g-emoji class="g-emoji" alias="earth_americas" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/1f30e.png">🌎</g-emoji>
+</h3>
+<p>We have different channels at your disposal where you can find information about the project, discuss about it and get involved:</p>
+<ul>
+<li>
+<g-emoji class="g-emoji" alias="book" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/1f4d6.png">📖</g-emoji> <strong><a href="https://docs.frontity.org">Docs</a></strong>: this is the place to learn how to build amazing sites with Frontity.</li>
+<li>
+<g-emoji class="g-emoji" alias="family_man_woman_girl_boy" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/1f468-1f469-1f467-1f466.png">👨‍👩‍👧‍👦</g-emoji> <strong><a href="https://community.frontity.org/">Community</a></strong>: use our forum to <a href="https://community.frontity.org/c/dev-talk-questions">ask any questions</a>, feedback and meet great people. This is your place too to share <a href="https://community.frontity.org/c/showcases">what are you building with Frontity</a>!</li>
+<li>
+<g-emoji class="g-emoji" alias="beetle" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/1f41e.png">🐞</g-emoji> <strong><a href="https://github.com/frontity/frontity">GitHub</a></strong>: we use GitHub for bugs and pull requests. Questions are answered in the <a href="https://community.frontity.org/">community forum</a>!</li>
+<li>
+<g-emoji class="g-emoji" alias="speaking_head" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/1f5e3.png">🗣</g-emoji> <strong>Social media</strong>: a more informal place to interact with Frontity users, reach out to us on <a href="https://twitter.com/frontity">Twitter</a>.</li>
+<li>
+<g-emoji class="g-emoji" alias="love_letter" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/1f48c.png">💌</g-emoji> <strong>Newsletter</strong>: do you want to receive the latest framework updates and news? Subscribe <a href="https://frontity.org/">here</a>
+</li>
+</ul>
+<h3>
+<a id="-get-involved-" class="anchor" href="#-get-involved-" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>» Get involved <g-emoji class="g-emoji" alias="hugs" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/1f917.png">🤗</g-emoji>
+</h3>
+<p>Got questions or feedback about Frontity? We'd love to hear from you. Use our <a href="https://community.frontity.org">community forum</a> yo ! <g-emoji class="g-emoji" alias="heart" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/2764.png">❤️</g-emoji></p>
+<p>Frontity also welcomes contributions. There are many ways to support the project! If you don't know where to start, this guide might help → <a href="https://docs.frontity.org/contributing/how-to-contribute">How to contribute?</a></p>
+
+      <footer class="site-footer">
+        <span class="site-footer-owner"><a href="https://github.com/TwojaDrugaWyplata/my-theme-wordpress-react">My-theme-wordpress-react</a> is maintained by <a href="https://github.com/TwojaDrugaWyplata">TwojaDrugaWyplata</a>.</span>
+
+        <span class="site-footer-credits">This page was generated by <a href="https://pages.github.com">GitHub Pages</a> using the <a href="https://github.com/jasonlong/cayman-theme">Cayman theme</a> by <a href="https://twitter.com/jasonlong">Jason Long</a>.</span>
+      </footer>
+
+    </section>
+
+  
+  </body>
+</html>
